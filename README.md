@@ -39,7 +39,7 @@ cd JNetServer
 
 ## 查看示例程序
 
-项目附带了基于 JavaFX GUI 的示例，包含了项目大部分使用方法范例和 API ，可使用一下方法查看
+项目附带了基于 JavaFX GUI 的示例，包含了项目大部分使用方法范例和 API ，可使用以下方法查看
 
 ### Windows
 
