@@ -42,7 +42,7 @@ tasks.withType(JavaCompile) {
 
 task(bootRun, dependsOn: fatJar) {
     doLast {
-        def path = "$buildDir${File.separator}libs${File.separator}SoftRun-${versions}-all.jar"
+        def path = "$buildDir${File.separator}libs${File.separator}Simple-${versions}-all.jar"
         javaexec {
 
             main = "-jar"
