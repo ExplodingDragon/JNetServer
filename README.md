@@ -1,9 +1,17 @@
 # 网络服务器集合
 
+<h2 align="center" style="color:red;">此项目未完工，就不要克隆了 ...</h2>
 
 ![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-Application-green.svg)  
 
 一个轻量级网络服务器的集合，使用 Kotlin 开发
+
+
+
+### 此合集存在有：
+
+1. HttpServer：一个轻量级 HTTP 1.1 服务器（不支持 SSL）
+
 
 ## 构建
 
@@ -21,11 +29,35 @@ gradlew.bat build
 ```
 
 ### MacOS / Linux
+
 ```bash
 git clone https://github.com/ExplodingFKL/JNetServer
 cd JNetServer
 ./gradlew build
 ```
+
+
+## 查看示例程序
+
+项目附带了基于 JavaFX GUI 的示例，包含了项目大部分使用方法范例和 API ，可使用一下方法查看
+
+### Windows
+
+```cmd
+git clone https://github.com/ExplodingFKL/JNetServer
+cd JNetServer
+gradlew.bat bootRun
+```
+
+### MacOS / Linux
+
+```bash
+git clone https://github.com/ExplodingFKL/JNetServer
+cd JNetServer
+./gradlew bootRun
+```
+
+
 
 ## LICENSE
 

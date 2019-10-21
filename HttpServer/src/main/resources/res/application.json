@@ -1,0 +1,1378 @@
+[
+  {
+    "fileType": "Unknown",
+    "application": "application/octet-stream"
+  },
+  {
+    "fileType": ".001",
+    "application": "application/x-001"
+  },
+  {
+    "fileType": ".323",
+    "application": "text/h323"
+  },
+  {
+    "fileType": ".907",
+    "application": "drawing/907"
+  },
+  {
+    "fileType": ".acp",
+    "application": "audio/x-mei-aac"
+  },
+  {
+    "fileType": ".aif",
+    "application": "audio/aiff"
+  },
+  {
+    "fileType": ".aiff",
+    "application": "audio/aiff"
+  },
+  {
+    "fileType": ".asa",
+    "application": "text/asa"
+  },
+  {
+    "fileType": ".asp",
+    "application": "text/asp"
+  },
+  {
+    "fileType": ".au",
+    "application": "audio/basic"
+  },
+  {
+    "fileType": ".awf",
+    "application": "application/vnd.adobe.workflow"
+  },
+  {
+    "fileType": ".bmp",
+    "application": "application/x-bmp"
+  },
+  {
+    "fileType": ".c4t",
+    "application": "application/x-c4t"
+  },
+  {
+    "fileType": ".cal",
+    "application": "application/x-cals"
+  },
+  {
+    "fileType": ".cdf",
+    "application": "application/x-netcdf"
+  },
+  {
+    "fileType": ".cel",
+    "application": "application/x-cel"
+  },
+  {
+    "fileType": ".cg4",
+    "application": "application/x-g4"
+  },
+  {
+    "fileType": ".cit",
+    "application": "application/x-cit"
+  },
+  {
+    "fileType": ".cml",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".cmx",
+    "application": "application/x-cmx"
+  },
+  {
+    "fileType": ".crl",
+    "application": "application/pkix-crl"
+  },
+  {
+    "fileType": ".csi",
+    "application": "application/x-csi"
+  },
+  {
+    "fileType": ".cut",
+    "application": "application/x-cut"
+  },
+  {
+    "fileType": ".dbm",
+    "application": "application/x-dbm"
+  },
+  {
+    "fileType": ".dcd",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".der",
+    "application": "application/x-x509-ca-cert"
+  },
+  {
+    "fileType": ".dib",
+    "application": "application/x-dib"
+  },
+  {
+    "fileType": ".doc",
+    "application": "application/msword"
+  },
+  {
+    "fileType": ".drw",
+    "application": "application/x-drw"
+  },
+  {
+    "fileType": ".dwf",
+    "application": "Model/vnd.dwf"
+  },
+  {
+    "fileType": ".dwg",
+    "application": "application/x-dwg"
+  },
+  {
+    "fileType": ".dxf",
+    "application": "application/x-dxf"
+  },
+  {
+    "fileType": ".emf",
+    "application": "application/x-emf"
+  },
+  {
+    "fileType": ".ent",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".eps",
+    "application": "application/x-ps"
+  },
+  {
+    "fileType": ".etd",
+    "application": "application/x-ebx"
+  },
+  {
+    "fileType": ".fax",
+    "application": "image/fax"
+  },
+  {
+    "fileType": ".fif",
+    "application": "application/fractals"
+  },
+  {
+    "fileType": ".frm",
+    "application": "application/x-frm"
+  },
+  {
+    "fileType": ".gbr",
+    "application": "application/x-gbr"
+  },
+  {
+    "fileType": ".gif",
+    "application": "image/gif"
+  },
+  {
+    "fileType": ".gp4",
+    "application": "application/x-gp4"
+  },
+  {
+    "fileType": ".hmr",
+    "application": "application/x-hmr"
+  },
+  {
+    "fileType": ".hpl",
+    "application": "application/x-hpl"
+  },
+  {
+    "fileType": ".hrf",
+    "application": "application/x-hrf"
+  },
+  {
+    "fileType": ".htc",
+    "application": "text/x-component"
+  },
+  {
+    "fileType": ".html",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".htx",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".ico",
+    "application": "image/x-icon"
+  },
+  {
+    "fileType": ".iff",
+    "application": "application/x-iff"
+  },
+  {
+    "fileType": ".igs",
+    "application": "application/x-igs"
+  },
+  {
+    "fileType": ".img",
+    "application": "application/x-img"
+  },
+  {
+    "fileType": ".isp",
+    "application": "application/x-internet-signup"
+  },
+  {
+    "fileType": ".java",
+    "application": "java/*"
+  },
+  {
+    "fileType": ".jpe",
+    "application": "image/jpeg"
+  },
+  {
+    "fileType": ".jpeg",
+    "application": "image/jpeg"
+  },
+  {
+    "fileType": ".jpg",
+    "application": "application/x-jpg"
+  },
+  {
+    "fileType": ".jsp",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".lar",
+    "application": "application/x-laplayer-reg"
+  },
+  {
+    "fileType": ".lavs",
+    "application": "audio/x-liquid-secure"
+  },
+  {
+    "fileType": ".lmsff",
+    "application": "audio/x-la-lms"
+  },
+  {
+    "fileType": ".ltr",
+    "application": "application/x-ltr"
+  },
+  {
+    "fileType": ".m2v",
+    "application": "video/x-mpeg"
+  },
+  {
+    "fileType": ".m4e",
+    "application": "video/mpeg4"
+  },
+  {
+    "fileType": ".man",
+    "application": "application/x-troff-man"
+  },
+  {
+    "fileType": ".mdb",
+    "application": "application/msaccess"
+  },
+  {
+    "fileType": ".mfp",
+    "application": "application/x-shockwave-flash"
+  },
+  {
+    "fileType": ".mhtml",
+    "application": "message/rfc822"
+  },
+  {
+    "fileType": ".mid",
+    "application": "audio/mid"
+  },
+  {
+    "fileType": ".mil",
+    "application": "application/x-mil"
+  },
+  {
+    "fileType": ".mnd",
+    "application": "audio/x-musicnet-download"
+  },
+  {
+    "fileType": ".mocha",
+    "application": "application/x-javascript"
+  },
+  {
+    "fileType": ".mp1",
+    "application": "audio/mp1"
+  },
+  {
+    "fileType": ".mp2v",
+    "application": "video/mpeg"
+  },
+  {
+    "fileType": ".mp4",
+    "application": "video/mpeg4"
+  },
+  {
+    "fileType": ".mpd",
+    "application": "application/vnd.ms-project"
+  },
+  {
+    "fileType": ".mpeg",
+    "application": "video/mpg"
+  },
+  {
+    "fileType": ".mpga",
+    "application": "audio/rn-mpeg"
+  },
+  {
+    "fileType": ".mps",
+    "application": "video/x-mpeg"
+  },
+  {
+    "fileType": ".mpv",
+    "application": "video/mpg"
+  },
+  {
+    "fileType": ".mpw",
+    "application": "application/vnd.ms-project"
+  },
+  {
+    "fileType": ".mtx",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".net",
+    "application": "image/pnetvue"
+  },
+  {
+    "fileType": ".nws",
+    "application": "message/rfc822"
+  },
+  {
+    "fileType": ".out",
+    "application": "application/x-out"
+  },
+  {
+    "fileType": ".p12",
+    "application": "application/x-pkcs12"
+  },
+  {
+    "fileType": ".p7c",
+    "application": "application/pkcs7-mime"
+  },
+  {
+    "fileType": ".p7r",
+    "application": "application/x-pkcs7-certreqresp"
+  },
+  {
+    "fileType": ".pc5",
+    "application": "application/x-pc5"
+  },
+  {
+    "fileType": ".pcl",
+    "application": "application/x-pcl"
+  },
+  {
+    "fileType": ".pdf",
+    "application": "application/pdf"
+  },
+  {
+    "fileType": ".pdx",
+    "application": "application/vnd.adobe.pdx"
+  },
+  {
+    "fileType": ".pgl",
+    "application": "application/x-pgl"
+  },
+  {
+    "fileType": ".pko",
+    "application": "application/vnd.ms-pki.pko"
+  },
+  {
+    "fileType": ".plg",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".plt",
+    "application": "application/x-plt"
+  },
+  {
+    "fileType": ".png",
+    "application": "application/x-png"
+  },
+  {
+    "fileType": ".ppa",
+    "application": "application/vnd.ms-powerpoint"
+  },
+  {
+    "fileType": ".pps",
+    "application": "application/vnd.ms-powerpoint"
+  },
+  {
+    "fileType": ".ppt",
+    "application": "application/x-ppt"
+  },
+  {
+    "fileType": ".prf",
+    "application": "application/pics-rules"
+  },
+  {
+    "fileType": ".prt",
+    "application": "application/x-prt"
+  },
+  {
+    "fileType": ".ps",
+    "application": "application/postscript"
+  },
+  {
+    "fileType": ".pwz",
+    "application": "application/vnd.ms-powerpoint"
+  },
+  {
+    "fileType": ".ra",
+    "application": "audio/vnd.rn-realaudio"
+  },
+  {
+    "fileType": ".ras",
+    "application": "application/x-ras"
+  },
+  {
+    "fileType": ".rdf",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".red",
+    "application": "application/x-red"
+  },
+  {
+    "fileType": ".rjs",
+    "application": "application/vnd.rn-realsystem-rjs"
+  },
+  {
+    "fileType": ".rlc",
+    "application": "application/x-rlc"
+  },
+  {
+    "fileType": ".rm",
+    "application": "application/vnd.rn-realmedia"
+  },
+  {
+    "fileType": ".rmi",
+    "application": "audio/mid"
+  },
+  {
+    "fileType": ".rmm",
+    "application": "audio/x-pn-realaudio"
+  },
+  {
+    "fileType": ".rms",
+    "application": "application/vnd.rn-realmedia-secure"
+  },
+  {
+    "fileType": ".rmx",
+    "application": "application/vnd.rn-realsystem-rmx"
+  },
+  {
+    "fileType": ".rp",
+    "application": "image/vnd.rn-realpix"
+  },
+  {
+    "fileType": ".rsml",
+    "application": "application/vnd.rn-rsml"
+  },
+  {
+    "fileType": ".rtf",
+    "application": "application/msword"
+  },
+  {
+    "fileType": ".rv",
+    "application": "video/vnd.rn-realvideo"
+  },
+  {
+    "fileType": ".sat",
+    "application": "application/x-sat"
+  },
+  {
+    "fileType": ".sdw",
+    "application": "application/x-sdw"
+  },
+  {
+    "fileType": ".slb",
+    "application": "application/x-slb"
+  },
+  {
+    "fileType": ".slk",
+    "application": "drawing/x-slk"
+  },
+  {
+    "fileType": ".smil",
+    "application": "application/smil"
+  },
+  {
+    "fileType": ".snd",
+    "application": "audio/basic"
+  },
+  {
+    "fileType": ".sor",
+    "application": "text/plain"
+  },
+  {
+    "fileType": ".spl",
+    "application": "application/futuresplash"
+  },
+  {
+    "fileType": ".ssm",
+    "application": "application/streamingmedia"
+  },
+  {
+    "fileType": ".stl",
+    "application": "application/vnd.ms-pki.stl"
+  },
+  {
+    "fileType": ".sty",
+    "application": "application/x-sty"
+  },
+  {
+    "fileType": ".swf",
+    "application": "application/x-shockwave-flash"
+  },
+  {
+    "fileType": ".tg4",
+    "application": "application/x-tg4"
+  },
+  {
+    "fileType": ".tif",
+    "application": "image/tiff"
+  },
+  {
+    "fileType": ".tiff",
+    "application": "image/tiff"
+  },
+  {
+    "fileType": ".top",
+    "application": "drawing/x-top"
+  },
+  {
+    "fileType": ".tsd",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".uin",
+    "application": "application/x-icq"
+  },
+  {
+    "fileType": ".vcf",
+    "application": "text/x-vcard"
+  },
+  {
+    "fileType": ".vdx",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vpg",
+    "application": "application/x-vpeg005"
+  },
+  {
+    "fileType": ".vsd",
+    "application": "application/x-vsd"
+  },
+  {
+    "fileType": ".vst",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vsw",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vtx",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".wav",
+    "application": "audio/wav"
+  },
+  {
+    "fileType": ".wb1",
+    "application": "application/x-wb1"
+  },
+  {
+    "fileType": ".wb3",
+    "application": "application/x-wb3"
+  },
+  {
+    "fileType": ".wiz",
+    "application": "application/msword"
+  },
+  {
+    "fileType": ".wk4",
+    "application": "application/x-wk4"
+  },
+  {
+    "fileType": ".wks",
+    "application": "application/x-wks"
+  },
+  {
+    "fileType": ".wma",
+    "application": "audio/x-ms-wma"
+  },
+  {
+    "fileType": ".wmf",
+    "application": "application/x-wmf"
+  },
+  {
+    "fileType": ".wmv",
+    "application": "video/x-ms-wmv"
+  },
+  {
+    "fileType": ".wmz",
+    "application": "application/x-ms-wmz"
+  },
+  {
+    "fileType": ".wpd",
+    "application": "application/x-wpd"
+  },
+  {
+    "fileType": ".wpl",
+    "application": "application/vnd.ms-wpl"
+  },
+  {
+    "fileType": ".wr1",
+    "application": "application/x-wr1"
+  },
+  {
+    "fileType": ".wrk",
+    "application": "application/x-wrk"
+  },
+  {
+    "fileType": ".ws2",
+    "application": "application/x-ws"
+  },
+  {
+    "fileType": ".wsdl",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xdp",
+    "application": "application/vnd.adobe.xdp"
+  },
+  {
+    "fileType": ".xfd",
+    "application": "application/vnd.adobe.xfd"
+  },
+  {
+    "fileType": ".xhtml",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".xls",
+    "application": "application/x-xls"
+  },
+  {
+    "fileType": ".xml",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xq",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xquery",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xsl",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xwd",
+    "application": "application/x-xwd"
+  },
+  {
+    "fileType": ".sis",
+    "application": "application/vnd.symbian.install"
+  },
+  {
+    "fileType": ".x_t",
+    "application": "application/x-x_t"
+  },
+  {
+    "fileType": ".apk",
+    "application": "application/vnd.android.package-archive"
+  },
+  {
+    "fileType": ".tif",
+    "application": "image/tiff"
+  },
+  {
+    "fileType": ".301",
+    "application": "application/x-301"
+  },
+  {
+    "fileType": ".906",
+    "application": "application/x-906"
+  },
+  {
+    "fileType": ".a11",
+    "application": "application/x-a11"
+  },
+  {
+    "fileType": ".ai",
+    "application": "application/postscript"
+  },
+  {
+    "fileType": ".aifc",
+    "application": "audio/aiff"
+  },
+  {
+    "fileType": ".anv",
+    "application": "application/x-anv"
+  },
+  {
+    "fileType": ".asf",
+    "application": "video/x-ms-asf"
+  },
+  {
+    "fileType": ".asx",
+    "application": "video/x-ms-asf"
+  },
+  {
+    "fileType": ".avi",
+    "application": "video/avi"
+  },
+  {
+    "fileType": ".biz",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".bot",
+    "application": "application/x-bot"
+  },
+  {
+    "fileType": ".c90",
+    "application": "application/x-c90"
+  },
+  {
+    "fileType": ".cat",
+    "application": "application/vnd.ms-pki.seccat"
+  },
+  {
+    "fileType": ".cdr",
+    "application": "application/x-cdr"
+  },
+  {
+    "fileType": ".cer",
+    "application": "application/x-x509-ca-cert"
+  },
+  {
+    "fileType": ".cgm",
+    "application": "application/x-cgm"
+  },
+  {
+    "fileType": ".class",
+    "application": "java/*"
+  },
+  {
+    "fileType": ".cmp",
+    "application": "application/x-cmp"
+  },
+  {
+    "fileType": ".cot",
+    "application": "application/x-cot"
+  },
+  {
+    "fileType": ".crt",
+    "application": "application/x-x509-ca-cert"
+  },
+  {
+    "fileType": ".css",
+    "application": "text/css"
+  },
+  {
+    "fileType": ".dbf",
+    "application": "application/x-dbf"
+  },
+  {
+    "fileType": ".dbx",
+    "application": "application/x-dbx"
+  },
+  {
+    "fileType": ".dcx",
+    "application": "application/x-dcx"
+  },
+  {
+    "fileType": ".dgn",
+    "application": "application/x-dgn"
+  },
+  {
+    "fileType": ".dll",
+    "application": "application/x-msdownload"
+  },
+  {
+    "fileType": ".dot",
+    "application": "application/msword"
+  },
+  {
+    "fileType": ".dtd",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".dwf",
+    "application": "application/x-dwf"
+  },
+  {
+    "fileType": ".dxb",
+    "application": "application/x-dxb"
+  },
+  {
+    "fileType": ".edn",
+    "application": "application/vnd.adobe.edn"
+  },
+  {
+    "fileType": ".eml",
+    "application": "message/rfc822"
+  },
+  {
+    "fileType": ".epi",
+    "application": "application/x-epi"
+  },
+  {
+    "fileType": ".eps",
+    "application": "application/postscript"
+  },
+  {
+    "fileType": ".exe",
+    "application": "application/x-msdownload"
+  },
+  {
+    "fileType": ".fdf",
+    "application": "application/vnd.fdf"
+  },
+  {
+    "fileType": ".fo",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".g4",
+    "application": "application/x-g4"
+  },
+  {
+    "fileType": ".",
+    "application": "application/x-"
+  },
+  {
+    "fileType": ".gl2",
+    "application": "application/x-gl2"
+  },
+  {
+    "fileType": ".hgl",
+    "application": "application/x-hgl"
+  },
+  {
+    "fileType": ".hpg",
+    "application": "application/x-hpgl"
+  },
+  {
+    "fileType": ".hqx",
+    "application": "application/mac-binhex40"
+  },
+  {
+    "fileType": ".hta",
+    "application": "application/hta"
+  },
+  {
+    "fileType": ".htm",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".htt",
+    "application": "text/webviewhtml"
+  },
+  {
+    "fileType": ".icb",
+    "application": "application/x-icb"
+  },
+  {
+    "fileType": ".ico",
+    "application": "application/x-ico"
+  },
+  {
+    "fileType": ".ig4",
+    "application": "application/x-g4"
+  },
+  {
+    "fileType": ".iii",
+    "application": "application/x-iphone"
+  },
+  {
+    "fileType": ".ins",
+    "application": "application/x-internet-signup"
+  },
+  {
+    "fileType": ".IVF",
+    "application": "video/x-ivf"
+  },
+  {
+    "fileType": ".jfif",
+    "application": "image/jpeg"
+  },
+  {
+    "fileType": ".jpe",
+    "application": "application/x-jpe"
+  },
+  {
+    "fileType": ".jpg",
+    "application": "image/jpeg"
+  },
+  {
+    "fileType": ".js",
+    "application": "application/x-javascript"
+  },
+  {
+    "fileType": ".la1",
+    "application": "audio/x-liquid-file"
+  },
+  {
+    "fileType": ".latex",
+    "application": "application/x-latex"
+  },
+  {
+    "fileType": ".lbm",
+    "application": "application/x-lbm"
+  },
+  {
+    "fileType": ".ls",
+    "application": "application/x-javascript"
+  },
+  {
+    "fileType": ".m1v",
+    "application": "video/x-mpeg"
+  },
+  {
+    "fileType": ".m3u",
+    "application": "audio/mpegurl"
+  },
+  {
+    "fileType": ".mac",
+    "application": "application/x-mac"
+  },
+  {
+    "fileType": ".math",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".mdb",
+    "application": "application/x-mdb"
+  },
+  {
+    "fileType": ".mht",
+    "application": "message/rfc822"
+  },
+  {
+    "fileType": ".mi",
+    "application": "application/x-mi"
+  },
+  {
+    "fileType": ".midi",
+    "application": "audio/mid"
+  },
+  {
+    "fileType": ".mml",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".mns",
+    "application": "audio/x-musicnet-stream"
+  },
+  {
+    "fileType": ".movie",
+    "application": "video/x-sgi-movie"
+  },
+  {
+    "fileType": ".mp2",
+    "application": "audio/mp2"
+  },
+  {
+    "fileType": ".mp3",
+    "application": "audio/mp3"
+  },
+  {
+    "fileType": ".mpa",
+    "application": "video/x-mpg"
+  },
+  {
+    "fileType": ".mpe",
+    "application": "video/x-mpeg"
+  },
+  {
+    "fileType": ".mpg",
+    "application": "video/mpg"
+  },
+  {
+    "fileType": ".mpp",
+    "application": "application/vnd.ms-project"
+  },
+  {
+    "fileType": ".mpt",
+    "application": "application/vnd.ms-project"
+  },
+  {
+    "fileType": ".mpv2",
+    "application": "video/mpeg"
+  },
+  {
+    "fileType": ".mpx",
+    "application": "application/vnd.ms-project"
+  },
+  {
+    "fileType": ".mxp",
+    "application": "application/x-mmxp"
+  },
+  {
+    "fileType": ".nrf",
+    "application": "application/x-nrf"
+  },
+  {
+    "fileType": ".odc",
+    "application": "text/x-ms-odc"
+  },
+  {
+    "fileType": ".p10",
+    "application": "application/pkcs10"
+  },
+  {
+    "fileType": ".p7b",
+    "application": "application/x-pkcs7-certificates"
+  },
+  {
+    "fileType": ".p7m",
+    "application": "application/pkcs7-mime"
+  },
+  {
+    "fileType": ".p7s",
+    "application": "application/pkcs7-signature"
+  },
+  {
+    "fileType": ".pci",
+    "application": "application/x-pci"
+  },
+  {
+    "fileType": ".pcx",
+    "application": "application/x-pcx"
+  },
+  {
+    "fileType": ".pdf",
+    "application": "application/pdf"
+  },
+  {
+    "fileType": ".pfx",
+    "application": "application/x-pkcs12"
+  },
+  {
+    "fileType": ".pic",
+    "application": "application/x-pic"
+  },
+  {
+    "fileType": ".pl",
+    "application": "application/x-perl"
+  },
+  {
+    "fileType": ".pls",
+    "application": "audio/scpls"
+  },
+  {
+    "fileType": ".png",
+    "application": "image/png"
+  },
+  {
+    "fileType": ".pot",
+    "application": "application/vnd.ms-powerpoint"
+  },
+  {
+    "fileType": ".ppm",
+    "application": "application/x-ppm"
+  },
+  {
+    "fileType": ".ppt",
+    "application": "application/vnd.ms-powerpoint"
+  },
+  {
+    "fileType": ".pr",
+    "application": "application/x-pr"
+  },
+  {
+    "fileType": ".prn",
+    "application": "application/x-prn"
+  },
+  {
+    "fileType": ".ps",
+    "application": "application/x-ps"
+  },
+  {
+    "fileType": ".ptn",
+    "application": "application/x-ptn"
+  },
+  {
+    "fileType": ".r3t",
+    "application": "text/vnd.rn-realtext3d"
+  },
+  {
+    "fileType": ".ram",
+    "application": "audio/x-pn-realaudio"
+  },
+  {
+    "fileType": ".rat",
+    "application": "application/rat-file"
+  },
+  {
+    "fileType": ".rec",
+    "application": "application/vnd.rn-recording"
+  },
+  {
+    "fileType": ".rgb",
+    "application": "application/x-rgb"
+  },
+  {
+    "fileType": ".rjt",
+    "application": "application/vnd.rn-realsystem-rjt"
+  },
+  {
+    "fileType": ".rle",
+    "application": "application/x-rle"
+  },
+  {
+    "fileType": ".rmf",
+    "application": "application/vnd.adobe.rmf"
+  },
+  {
+    "fileType": ".rmj",
+    "application": "application/vnd.rn-realsystem-rmj"
+  },
+  {
+    "fileType": ".rmp",
+    "application": "application/vnd.rn-rn_music_package"
+  },
+  {
+    "fileType": ".rmvb",
+    "application": "application/vnd.rn-realmedia-vbr"
+  },
+  {
+    "fileType": ".rnx",
+    "application": "application/vnd.rn-realplayer"
+  },
+  {
+    "fileType": ".rpm",
+    "application": "audio/x-pn-realaudio-plugin"
+  },
+  {
+    "fileType": ".rt",
+    "application": "text/vnd.rn-realtext"
+  },
+  {
+    "fileType": ".rtf",
+    "application": "application/x-rtf"
+  },
+  {
+    "fileType": ".sam",
+    "application": "application/x-sam"
+  },
+  {
+    "fileType": ".sdp",
+    "application": "application/sdp"
+  },
+  {
+    "fileType": ".sit",
+    "application": "application/x-stuffit"
+  },
+  {
+    "fileType": ".sld",
+    "application": "application/x-sld"
+  },
+  {
+    "fileType": ".smi",
+    "application": "application/smil"
+  },
+  {
+    "fileType": ".smk",
+    "application": "application/x-smk"
+  },
+  {
+    "fileType": ".sol",
+    "application": "text/plain"
+  },
+  {
+    "fileType": ".spc",
+    "application": "application/x-pkcs7-certificates"
+  },
+  {
+    "fileType": ".spp",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".sst",
+    "application": "application/vnd.ms-pki.certstore"
+  },
+  {
+    "fileType": ".stm",
+    "application": "text/html"
+  },
+  {
+    "fileType": ".svg",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".tdf",
+    "application": "application/x-tdf"
+  },
+  {
+    "fileType": ".tga",
+    "application": "application/x-tga"
+  },
+  {
+    "fileType": ".tif",
+    "application": "application/x-tif"
+  },
+  {
+    "fileType": ".tld",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".torren",
+    "application": "tapplication/x-bittorrent"
+  },
+  {
+    "fileType": ".txt",
+    "application": "text/plain"
+  },
+  {
+    "fileType": ".uls",
+    "application": "text/iuls"
+  },
+  {
+    "fileType": ".vda",
+    "application": "application/x-vda"
+  },
+  {
+    "fileType": ".vml",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".vsd",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vss",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vst",
+    "application": "application/x-vst"
+  },
+  {
+    "fileType": ".vsx",
+    "application": "application/vnd.visio"
+  },
+  {
+    "fileType": ".vxml",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".wax",
+    "application": "audio/x-ms-wax"
+  },
+  {
+    "fileType": ".wb2",
+    "application": "application/x-wb2"
+  },
+  {
+    "fileType": ".wbmp",
+    "application": "image/vnd.wap.wbmp"
+  },
+  {
+    "fileType": ".wk3",
+    "application": "application/x-wk3"
+  },
+  {
+    "fileType": ".wkq",
+    "application": "application/x-wkq"
+  },
+  {
+    "fileType": ".wm",
+    "application": "video/x-ms-wm"
+  },
+  {
+    "fileType": ".wmd",
+    "application": "application/x-ms-wmd"
+  },
+  {
+    "fileType": ".wml",
+    "application": "text/vnd.wap.wml"
+  },
+  {
+    "fileType": ".wmx",
+    "application": "video/x-ms-wmx"
+  },
+  {
+    "fileType": ".wp6",
+    "application": "application/x-wp6"
+  },
+  {
+    "fileType": ".wpg",
+    "application": "application/x-wpg"
+  },
+  {
+    "fileType": ".wq1",
+    "application": "application/x-wq1"
+  },
+  {
+    "fileType": ".wri",
+    "application": "application/x-wri"
+  },
+  {
+    "fileType": ".ws",
+    "application": "application/x-ws"
+  },
+  {
+    "fileType": ".wsc",
+    "application": "text/scriptlet"
+  },
+  {
+    "fileType": ".wvx",
+    "application": "video/x-ms-wvx"
+  },
+  {
+    "fileType": ".xdr",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xfdf",
+    "application": "application/vnd.adobe.xfdf"
+  },
+  {
+    "fileType": ".xls",
+    "application": "application/vnd.ms-excel"
+  },
+  {
+    "fileType": ".xlw",
+    "application": "application/x-xlw"
+  },
+  {
+    "fileType": ".xpl",
+    "application": "audio/scpls"
+  },
+  {
+    "fileType": ".xql",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xsd",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".xslt",
+    "application": "text/xml"
+  },
+  {
+    "fileType": ".x_b",
+    "application": "application/x-x_b"
+  },
+  {
+    "fileType": ".sisx",
+    "application": "application/vnd.symbian.install"
+  },
+  {
+    "fileType": ".ipa",
+    "application": "application/vnd.iphone"
+  },
+  {
+    "fileType": ".xap",
+    "application": "application/x-silverlight-app"
+  }
+]

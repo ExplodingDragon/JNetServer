@@ -1,2 +1,5 @@
 rootProject.name = 'NetServer'
 
+include 'HttpServer'
+include 'SoftRun'
+

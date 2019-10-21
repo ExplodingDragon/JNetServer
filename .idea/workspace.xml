@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="" />
+    <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/HttpServer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/config/HttpConstant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/config/ResponseCode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/config/ServerConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/factory/FindHttpServletFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/factory/HeaderReaderFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/factory/impl/DefaultFindHttpServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/factory/impl/DefaultHeaderReader.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/ClientResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/HttpHeaderInfo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/base/BaseResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/BaseResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/SimpleResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/TextResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/raw/FileResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/raw/RawResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/raw/ResRawResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/text/HtmlResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/text/PkgHtmlResponseData.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/BaseHttpServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/annotation/ServletBinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/binder/BaseHttpServletBinder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/binder/impl/HttpServletBinder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/binder/impl/ResServletBinder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/impl/FileHttpServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/impl/HtmlHttpServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/impl/TextHtmlServlet.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/thread/ClientAcceptRunnable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/thread/SocketListenerRunnable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/thread/base/BaseClientRunnable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/utils/CalculateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/utils/ContentTypeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/utils/DataReaderUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/Logo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/application.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/drawable/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/resultHtml/400.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/resultHtml/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/resultHtml/50X.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/resultHtml/HelloWorld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HttpServer/src/main/resources/res/resultHtml/ListFiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRun/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRun/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/HttpServer/.gradle/" />
+    <ignored path="$PROJECT_DIR$/HttpServer/build/" />
+    <ignored path="$PROJECT_DIR$/SoftRun/.gradle/" />
+    <ignored path="$PROJECT_DIR$/SoftRun/build/" />
+    <ignored path="$PROJECT_DIR$/example/.gradle/" />
+    <ignored path="$PROJECT_DIR$/example/build/" />
+    <ignored path="$PROJECT_DIR$/tcp-http/.gradle/" />
+    <ignored path="$PROJECT_DIR$/tcp-http/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +84,108 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/SoftRun">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/HttpServer">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="HttpServer" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="HttpServer" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="HttpServer" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NetServer" type="f1a62948:ProjectNode" />
+                <item name="SoftRun" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/SoftRun/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="513">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="22" selection-start-line="8" selection-end-line="9" />
+              <folding>
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +194,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="456">
-                <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
@@ -49,10 +204,26 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/Server/Main.java" />
+        <option value="$PROJECT_DIR$/tcp-http/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/HttpServer/build.gradle" />
+        <option value="$PROJECT_DIR$/SoftRun/build.gradle" />
+        <option value="$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/Main.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -63,12 +234,14 @@
     <option name="width" value="1612" />
     <option name="height" value="876" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,27 +249,119 @@
               <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
+            <path>
+              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SoftRun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SoftRun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SoftRun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SoftRun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="SoftRun" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="HttpServer" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="HttpServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="top.fksoft.NetServer.HttpServer.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="HttpServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="top.fksoft.NetServer.HttpServer.main" type="616d4139:PackageViewModuleNode" />
+              <item name="top.fksoft.server.http" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="top.fksoft.NetServer.SoftRun.main" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="top.fksoft.NetServer.SoftRun.main" type="616d4139:PackageViewModuleNode" />
+              <item name="top.fksoft.server" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
+              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
+              <item name="top.fksoft.NetServer.SoftRun.test" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Software/SoftData/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Intellij\NetServer\SoftRun" />
+      <recent name="D:\Workspace\Intellij\NetServer\HttpServer\src\test" />
+      <recent name="D:\Workspace\Intellij\NetServer\HttpServer" />
       <recent name="D:\Workspace\Intellij\NetServer" />
     </key>
   </component>
@@ -112,6 +377,125 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Gradle.Run Example">
+    <configuration default="true" type="Application" factoryName="Application">
+      <module name="NetServer.HttpServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetServer [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NetServer [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NetServer:HttpServer [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/HttpServer" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NetServer:SoftRun [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SoftRun" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Example" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SoftRun" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.Run Example" />
+      <item itemvalue="Gradle.NetServer:SoftRun [clean]" />
+      <item itemvalue="Gradle.NetServer [build]" />
+      <item itemvalue="Gradle.NetServer [clean]" />
+      <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Run Example" />
+        <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
+        <item itemvalue="Gradle.NetServer [clean]" />
+        <item itemvalue="Gradle.NetServer:SoftRun [clean]" />
+        <item itemvalue="Gradle.NetServer [build]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -122,67 +506,187 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571645083734</updated>
-      <workItem from="1571645085874" duration="185000" />
+      <workItem from="1571645085874" duration="2782000" />
+      <workItem from="1571648203524" duration="434000" />
+      <workItem from="1571648641864" duration="81000" />
+      <workItem from="1571648724818" duration="60000" />
+      <workItem from="1571648787329" duration="36000" />
+      <workItem from="1571648826177" duration="49000" />
+      <workItem from="1571648877322" duration="59000" />
+      <workItem from="1571648939076" duration="2000" />
+      <workItem from="1571648951945" duration="124000" />
+      <workItem from="1571649078490" duration="1168000" />
     </task>
+    <task id="LOCAL-00001" summary="修复 README.md 下语法错误.">
+      <created>1571645540301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571645540301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185000" />
+    <option name="totallyTimeSpent" value="4795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2805139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.3295711" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295711" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295711" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Word Book" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="WIFI ADB ULTIMATE" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3295711" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3295711" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="WIFI ADB ULTIMATE" order="6" />
+      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.3254818" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修复 README.md 下语法错误." />
+    <option name="LAST_COMMIT_MESSAGE" value="修复 README.md 下语法错误." />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/test/java/top/fksoft/execute/Main.kt" />
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/utils/DataReaderUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/annotation/ServletBinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/SoftData/GradleLocal/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/bc0c767786c4a3c042a364e69d3f3dd5ff5253a5/kotlin-stdlib-1.3.50-sources.jar!/kotlin/reflect/KClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/HttpServer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/ClientResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/config/HttpConstant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/SoftData/GradleLocal/caches/modules-2/files-2.1/com.github.ExplodingDragon.JavaUtils/JavaUtils/v0.1-beta2/904a1d9d881ed2839f250b397f25018459c00421/JavaUtils-v0.1-beta2.jar!/jdkUtils/logcat/Logger.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/impl/FileHttpServlet.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="109" selection-start-line="22" selection-start-column="100" selection-end-line="22" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/server/serverIO/responseData/impl/raw/FileResponseData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3040">
+          <caret line="169" column="13" selection-start-line="167" selection-start-column="33" selection-end-line="169" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="684">
           <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftRun/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-end-line="9" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>
@@ -191,6 +695,29 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -205,6 +732,18 @@
       <state key="JdkListConfigurable.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NetServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
