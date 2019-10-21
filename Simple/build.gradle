@@ -5,7 +5,7 @@ group "$groups"
 version "$versions"
 sourceCompatibility = 1.8
 
-def mainClassName = 'top.fksoft.server.Main'
+def mainClassName = 'top.fksoft.simple.Main'
 
 dependencies {
     implementation project(":HttpServer")
