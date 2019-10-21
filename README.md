@@ -1,6 +1,6 @@
 # 网络服务器集合
 
-<h2 align="center" style="color:red;">此项目未完工，就不要克隆了 ...</h2>
+<h2 align="center" style="text-fill:red;text-color:red;">此项目未完工，就不要克隆了</h2>
 
 ![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-Application-green.svg)  
 
