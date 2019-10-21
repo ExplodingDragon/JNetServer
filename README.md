@@ -16,14 +16,14 @@
 
 ```cmd
 git clone https://github.com/ExplodingFKL/JNetServer
-cd JRemoteDesktop
+cd JNetServer
 gradlew.bat build
 ```
 
 ### MacOS / Linux
 ```bash
 git clone https://github.com/ExplodingFKL/JNetServer
-cd JRemoteDesktop
+cd JNetServer
 ./gradlew build
 ```
 
