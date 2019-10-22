@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UdpServer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -17,6 +20,8 @@
     <ignored path="$PROJECT_DIR$/tcp-http/build/" />
     <ignored path="$PROJECT_DIR$/Simple/.gradle/" />
     <ignored path="$PROJECT_DIR$/Simple/build/" />
+    <ignored path="$PROJECT_DIR$/UdpServer/.gradle/" />
+    <ignored path="$PROJECT_DIR$/UdpServer/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,57 +124,7 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Simple/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/layout/Main.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -190,13 +145,14 @@
         <option value="$PROJECT_DIR$/tcp-http/build.gradle" />
         <option value="$PROJECT_DIR$/HttpServer/build.gradle" />
         <option value="$PROJECT_DIR$/SoftRun/build.gradle" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/Main.java" />
         <option value="$PROJECT_DIR$/SoftRun/src/main/java/top/fksoft/server/layout/Main.fxml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/Simple/build.gradle" />
         <option value="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/server/Main.java" />
         <option value="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/UdpServer/build.gradle" />
       </list>
     </option>
   </component>
@@ -211,6 +167,9 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages PackagesPane="false" />
+      <hideEmptyPackages PackagesPane="false" ProjectPane="true" />
+      <abbreviatePackageNames PackagesPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -259,37 +218,19 @@
             <path>
               <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Simple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="HttpServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="Simple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
               <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Simple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Simple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NetServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="Simple" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="UdpServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,44 +242,7 @@
           <expand>
             <path>
               <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="HttpServer" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="top.fksoft.NetServer.SoftRun.main" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="top.fksoft.NetServer.SoftRun.main" type="616d4139:PackageViewModuleNode" />
-              <item name="top.fksoft.server" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="top.fksoft.NetServer.SoftRun.main" type="616d4139:PackageViewModuleNode" />
-              <item name="top.fksoft.server" type="1f31426a:PackageElementNode" />
-              <item name="layout" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="NetServer" type="58d84e3e:PackageViewProjectNode" />
-              <item name="top.fksoft.NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="SoftRun" type="eaaa3913:PackageViewModuleGroupNode" />
-              <item name="top.fksoft.NetServer.SoftRun.test" type="616d4139:PackageViewModuleNode" />
+              <item name="NetServer" type="eaaa3913:PackageViewModuleGroupNode" />
             </path>
           </expand>
           <select />
@@ -351,7 +255,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Software/SoftData/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UdpServer" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -361,6 +265,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Intellij\NetServer\UdpServer" />
       <recent name="D:\Workspace\Intellij\NetServer\SoftRun" />
       <recent name="D:\Workspace\Intellij\NetServer\HttpServer\src\test" />
       <recent name="D:\Workspace\Intellij\NetServer\HttpServer" />
@@ -476,11 +381,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="Gradle.Run Example" />
       <item itemvalue="Gradle.NetServer:SoftRun [clean]" />
       <item itemvalue="Gradle.NetServer [clean]" />
       <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
@@ -512,7 +417,8 @@
       <workItem from="1571648939076" duration="2000" />
       <workItem from="1571648951945" duration="124000" />
       <workItem from="1571649078490" duration="3882000" />
-      <workItem from="1571655277145" duration="1108000" />
+      <workItem from="1571655277145" duration="1552000" />
+      <workItem from="1571742058105" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="修复 README.md 下语法错误.">
       <created>1571645540301</created>
@@ -570,16 +476,23 @@
       <option name="project" value="LOCAL" />
       <updated>1571656183749</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修正 README 语法错误.">
+      <created>1571656588893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1571656588893</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8617000" />
+    <option name="totallyTimeSpent" value="9216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28426126" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28800857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -658,7 +571,8 @@
     <MESSAGE value="修复 README.md 下语法错误." />
     <MESSAGE value="修改范例位置。" />
     <MESSAGE value="修复一个小问题." />
-    <option name="LAST_COMMIT_MESSAGE" value="修复一个小问题." />
+    <MESSAGE value="修正 README 语法错误." />
+    <option name="LAST_COMMIT_MESSAGE" value="修正 README 语法错误." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -671,9 +585,6 @@
           <caret line="18" column="57" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="57" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HttpServer/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/servlet/annotation/ServletBinder.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -727,27 +638,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HttpServer/build.gradle">
+    <entry file="file://$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -759,27 +656,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="4" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="779">
+            <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Simple/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
+        <state relative-caret-position="19">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="63" selection-start-line="23" selection-start-column="63" selection-end-line="23" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HttpServer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="22" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdpServer/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdpServer/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
