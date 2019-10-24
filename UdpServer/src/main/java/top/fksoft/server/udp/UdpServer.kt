@@ -35,7 +35,7 @@ class UdpServer @JvmOverloads constructor(
         private val datagramSocket: DatagramSocket = DatagramSocket(31412),
         private val mtuSize: Int = InternetMTU,
         private val threadPool: ExecutorService = ThreadPoolExecutor(0, Integer.MAX_VALUE,
-                5L, TimeUnit.SECONDS,
+                1L, TimeUnit.SECONDS,
                 SynchronousQueue()),
         private val hashFactory: HashFactory = HashFactory.default
 ) : Closeable {
