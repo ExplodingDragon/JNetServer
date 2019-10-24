@@ -57,8 +57,9 @@ interface HashFactory{
 
         override fun create(src: String): String = StringUtils.stringCrc32Hex(src)
 
-        override val hashByteSize: Int
-            get() = 8
+        override val hashByteSize: Int by lazy {
+            create("TEST").length
+        }
 
         override fun createToByteArray(src: String, out: ByteArray, offset: Int): Int {
             System.arraycopy(create(src).toByteArray(Charsets.US_ASCII),0,out,offset,hashByteSize)

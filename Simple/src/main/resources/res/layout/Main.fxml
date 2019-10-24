@@ -1,16 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.SplitPane?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import java.lang.String?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+<VBox style="-fx-background-color: #00000000;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <SplitPane disable="true" dividerPositions="0.2" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" HBox.hgrow="ALWAYS">
-         <items>
-            <VBox prefHeight="200.0" prefWidth="100.0" />
-            <VBox prefHeight="200.0" prefWidth="100.0" />
-         </items>
-      </SplitPane>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="400.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="64.0" style="-fx-background-color: #DC0055;">
+               <children>
+                  <Label maxWidth="1.7976931348623157E308" text="UDP 测试" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font name="Microsoft YaHei" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label onMouseClicked="#sendUser" text="SEND" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin></Label>
+                  <Label onMouseClicked="#close" text="CLOSE" textFill="WHITE" />
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" style="-fx-background-color: #555;">
+               <children>
+                  <Label maxWidth="1.7976931348623157E308" text="服务器状态" textFill="WHITE" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                  </Label>
+                  <JFXToggleButton fx:id="serverStatus" onAction="#startServer" size="8.0" text=" " />
+               </children>
+            </HBox>
+            <VBox maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" VBox.vgrow="ALWAYS">
+               <children>
+                  <Label text="UDP 服务器模式">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="8.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ChoiceBox fx:id="choose" maxWidth="1.7976931348623157E308">
+                  <items>
+                     <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="普通模式" />
+                        <String fx:value="组播模式" />
+                     </FXCollections>
+                  </items>
+                  </ChoiceBox>
+                  <Label text="服务器信息">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="8.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="localIp" maxWidth="1.7976931348623157E308" text="服务器未开启" VBox.vgrow="ALWAYS">
+                     <VBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="远程服务器监测">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="8.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ListView fx:id="remoteList" prefHeight="80.0" />
+                  <Label text="发送数据">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="8.0" />
+                     </VBox.margin>
+                  </Label>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" />
+                      <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <JFXTextField fx:id="sendIp" GridPane.columnIndex="1" />
+                        <Label text="远程地址：" />
+                        <Label text="发送数据：" GridPane.rowIndex="1" />
+                        <JFXTextArea fx:id="sendData" prefHeight="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label text="发送状态：" GridPane.rowIndex="2" />
+                        <Label fx:id="sendStatus" alignment="CENTER" maxWidth="1.7976931348623157E308" text="未知" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                     </children>
+                  </GridPane>
+                  <JFXButton buttonType="RAISED" maxWidth="1.7976931348623157E308" onAction="#send" ripplerFill="WHITE" style="-fx-background-color: #ee3b80;" text="发送" textAlignment="CENTER" textFill="WHITE" />
+                  <Label text="接受数据">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="8.0" />
+                     </VBox.margin>
+                  </Label>
+                  <JFXTextArea fx:id="receive" prefHeight="60.0" VBox.vgrow="ALWAYS" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" color="#797979" height="80.0" offsetX="5.0" offsetY="5.0" radius="39.5" width="80.0" />
+         </effect>
+      </VBox>
    </children>
-</HBox>
+   <padding>
+      <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+   </padding>
+</VBox>

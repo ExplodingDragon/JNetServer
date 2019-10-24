@@ -12,9 +12,7 @@ import java.net.DatagramPacket
 import java.net.DatagramSocket
 import java.net.InetAddress
 import java.net.SocketException
-import java.util.concurrent.ConcurrentHashMap
-import java.util.concurrent.ExecutorService
-import java.util.concurrent.Executors
+import java.util.concurrent.*
 
 /**
  * # 建立一个 UDP 管理服务器
@@ -33,10 +31,12 @@ import java.util.concurrent.Executors
  * 默认已经全部实现，绑定了 ```31412``` 端口，使用标准互联网MTU大小，依赖 CRC32 来校验
  *
  */
-class UdpServer(
+class UdpServer @JvmOverloads constructor(
         private val datagramSocket: DatagramSocket = DatagramSocket(31412),
         private val mtuSize: Int = InternetMTU,
-        private val threadPool: ExecutorService = Executors.newCachedThreadPool(),
+        private val threadPool: ExecutorService = ThreadPoolExecutor(0, Integer.MAX_VALUE,
+                5L, TimeUnit.SECONDS,
+                SynchronousQueue()),
         private val hashFactory: HashFactory = HashFactory.default
 ) : Closeable {
     private val logger = Logger.getLogger(this)
@@ -78,21 +78,34 @@ class UdpServer(
                 val remoteInfo = NetworkInfo(receivePacket.address.hostAddress, receivePacket.port)
                 // 远程服务器
                 val remoteTypeHash = hashFactory.decodeHashStr(receiveBytes, tag.size)
-                if (receiveMap.contains(remoteTypeHash)) {
+                if (receiveMap.containsKey(remoteTypeHash)) {
                     val binder = receiveMap[remoteTypeHash]!!
                     val length = AtomicUtils.byteToShort(receiveBytes, tag.size + hashFactory.hashByteSize).toInt()
                     if (binder.create(receiveBytes, offset, length)) {
-                        binder.listener.onReceive(remoteInfo,binder.packet())
+                        val runnable = Runnable {
+                            try {
+                                binder.listener.onReceive(remoteInfo, binder.packet())
+                            } catch (e: Exception) {
+                                logger.warn("处理数据包时发生问题")
+                            }
+                        }
+                        threadPool.submit(runnable)
                     }else{
-
+                        logger.info("解析数据包未通过.")
                     }
-
+                }else{
+                    logger.info("新接受数据包但无法解析，原因：$remoteTypeHash")
 
                 }
             } catch (e: Exception) {
-                logger.error("udp 服务器在监听过程中发送错误。", e)
+                val contains = e.message?.contains("socket closed")?:false
+                if ((e is SocketException && contains).not()) {
+                    logger.error("在解析数据包时发生问题！", e)
+                }
             }
+
         }
+        logger.info("数据包监听结束。")
     }
 
     /**
@@ -111,6 +124,7 @@ class UdpServer(
             throw SocketException("连接存在问题，无法初始化.")
         }
         setTAG() //默认 TAG
+        Thread(receiveListenRunnable,"#UDP_RECEIVE@${Integer.toHexString(hashCode())}").start()
     }
 
 
@@ -180,11 +194,20 @@ class UdpServer(
     @Synchronized
     fun bindReceive(binder: ReceiveBinder<*>) {
         val key = hashFactory.create(binder.hashSrc)
+        logger.info("添加新的监听器，代号：$key")
         receiveMap[key] = binder
     }
 
 
     override fun close() {
+        if (!isClosed) {
+            receiveMap.clear()
+            datagramSocket.close()
+            logger.info("已发送销毁服务器请求.")
+        }else{
+            logger.debug("服务器已关闭，无需再次关闭.")
+
+        }
 
     }
 
