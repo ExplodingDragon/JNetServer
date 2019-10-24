@@ -51,7 +51,7 @@ public class UdpController {
     private JFXTextArea receive;
     private Stage stage;
     private int port = 34567;
-    String host = "232.10.8.7";
+    String host = "239.0.0.255";
 
 
     @FXML
@@ -82,12 +82,11 @@ public class UdpController {
             if (choose.getSelectionModel().isSelected(0)) {
                 logger.info("选中了普通模式");
                 udpServer = new UdpServer(new DatagramSocket(port));
-
             } else {
                 logger.info("选中了组播模式");
                 InetAddress ipAddress = InetAddress.getByName(host);
                 MulticastSocket socket = new MulticastSocket(port);
-                socket.setTimeToLive(254);
+                socket.setTimeToLive(32);
                 socket.joinGroup(ipAddress);
                 udpServer = new UdpServer(socket);
                 sendIp.setText(String.format("%s:%d",ipAddress.getHostAddress(),port));
@@ -114,5 +113,8 @@ public class UdpController {
     public void init(Stage stage) {
         this.stage = stage;
         choose.getSelectionModel().selectFirst();
+        stage.setOnCloseRequest(windowEvent -> {
+            close(null);
+        });
     }
 }
