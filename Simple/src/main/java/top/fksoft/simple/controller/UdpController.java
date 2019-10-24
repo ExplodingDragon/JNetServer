@@ -9,10 +9,12 @@ import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import jdkUtils.logcat.Logger;
 import top.fksoft.bean.NetworkInfo;
 import top.fksoft.server.udp.UdpServer;
+import top.fksoft.simple.data.DataPacket;
 import top.fksoft.simple.data.DataReceiveBinder;
 import top.fksoft.simple.data.UserPacket;
 
@@ -61,9 +63,19 @@ public class UdpController {
         }
         stage.close();
     }
+    DataPacket dataPacket = new DataPacket ();
 
     @FXML
     void send(ActionEvent event) {
+        dataPacket.data = sendData.getText();
+        String text = sendIp.getText();
+        if (udpServer.sendPacket(dataPacket,new NetworkInfo(text.split(":")[0],Integer.parseInt(text.split(":")[1])))) {
+            sendStatus.setText("发送成功！");
+            sendStatus.setTextFill(Color.GREEN);
+        }else {
+            sendStatus.setText("发送失败！");
+            sendStatus.setTextFill(Color.RED);
+        }
 
 
     }
@@ -101,6 +113,12 @@ public class UdpController {
                         remoteList.getItems().add(((UserPacket)packet).user.toString());
                 });
             }, new UserPacket()));
+            udpServer.bindReceive(new DataReceiveBinder<>((networkInfo, packet) -> {
+                logger.info("接收到来自" + networkInfo + "的数据包.");
+                javafx.application.Platform.runLater(()->{
+                    receive.setText(((DataPacket)packet).data);
+                });
+            }, new DataPacket()));
         } else {
             if (udpServer != null) {
                 udpServer.close();

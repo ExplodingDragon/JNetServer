@@ -42,6 +42,6 @@ public class UserPacket extends StringPacket {
     @NotNull
     @Override
     public String getHashSrc() {
-        return this.getClass().getName();
+        return "UserClass";
     }
 }
