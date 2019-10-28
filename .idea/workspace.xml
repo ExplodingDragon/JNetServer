@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="修改 README 信息">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-=======
     <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
->>>>>>> dev
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +117,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1Sikq06NjUie9877BwazgFe3cF6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -139,13 +128,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Software/SoftData/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -278,17 +267,11 @@
     </list>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-=======
         <item itemvalue="Gradle.Run Example" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
->>>>>>> dev
         <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
         <item itemvalue="Gradle.NetServer [clean]" />
-        <item itemvalue="Gradle.Run Example" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -417,21 +400,12 @@
       <option name="project" value="LOCAL" />
       <updated>1571909518862</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00015" summary="修改 README 信息">
-      <created>1572055436449</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1572055436449</updated>
-=======
     <task id="LOCAL-00015" summary="修复一些小问题">
       <created>1572260804301</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
       <updated>1572260804301</updated>
->>>>>>> dev
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
@@ -462,10 +436,6 @@
     <MESSAGE value="修正 README 语法错误." />
     <MESSAGE value="添加新功能." />
     <MESSAGE value="减少线程池的延迟速度." />
-<<<<<<< HEAD
-    <MESSAGE value="修改 README 信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 README 信息" />
-=======
     <MESSAGE value="修复一些小问题" />
     <option name="LAST_COMMIT_MESSAGE" value="修复一些小问题" />
   </component>
@@ -479,7 +449,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
->>>>>>> dev
   </component>
   <component name="masterDetails">
     <states>

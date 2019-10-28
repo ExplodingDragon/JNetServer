@@ -1,17 +1,17 @@
-# 网络服务器集合
+# 网络通信库集群
 
 
 ![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-Application-green.svg)  [![](https://jitpack.io/v/ExplodingFKL/JNetServer.svg)](https://jitpack.io/#ExplodingFKL/JNetServer)
 
 
-一个轻量级网络服务器的集合，使用 Kotlin 开发
+一个轻量级网络通信库集合，使用 Kotlin 开发，兼容 IPv6
 
 引用方案详见 [JitPack](https://jitpack.io/#ExplodingFKL/JNetServer)
 
 ### 此合集存在有：
 
 1. HttpServer：一个轻量级 HTTP 1.1 服务器（不支持 SSL）
-2. HdpServer: 对UDP 进行二次封装，简化结构
+2. HdpServer: 对UDP 进行二次封装，简化通信结构 (兼容 广播、单播和组播)
 
 ## 构建
 
@@ -21,6 +21,7 @@
 2. 磁盘剩余空间 512M 以上 
 
 ### Windows
+
 
 ```cmd
 git clone https://github.com/ExplodingFKL/JNetServer
