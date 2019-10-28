@@ -1,7 +1,7 @@
 # 网络通信库集群
 
 
-![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-lIBRARY-green.svg)  [![](https://jitpack.io/v/ExplodingFKL/JNetServer.svg)](https://jitpack.io/#ExplodingFKL/JNetServer)
+![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-LIBRARY-green.svg)  [![](https://jitpack.io/v/ExplodingFKL/JNetServer.svg)](https://jitpack.io/#ExplodingFKL/JNetServer)
 
 
 一个轻量级网络通信库集合，使用 Kotlin 开发，兼容 IPv6
