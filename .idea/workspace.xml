@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/utils/FxmlActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/utils/fxml/Controller.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -111,12 +115,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Sikq06NjUie9877BwazgFe3cF6" />
@@ -134,22 +144,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workspace\Intellij\NetServer\Simple\src\main\resources\res" />
-      <recent name="D:\Workspace\Intellij\NetServer\Simple\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="top.fksoft.simple.data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\Intellij\NetServer\Simple\src\main\resources\res\style\css" />
       <recent name="D:\Workspace\Intellij\NetServer\UdpServer\src\main\java" />
       <recent name="D:\Workspace\Intellij\NetServer\UdpServer" />
       <recent name="D:\Workspace\Intellij\NetServer\SoftRun" />
       <recent name="D:\Workspace\Intellij\NetServer\HttpServer\src\test" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.fksoft.simple.data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\Intellij\NetServer\Simple\src\main\resources\res" />
+      <recent name="D:\Workspace\Intellij\NetServer\Simple\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -164,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Run Example">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.fksoft.simple.Main" />
       <module name="NetServer.HttpServer" />
@@ -268,10 +278,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.Run Example" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
         <item itemvalue="Gradle.NetServer [clean]" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
