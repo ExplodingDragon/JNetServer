@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -35,6 +33,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/HttpServer">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/Simple">
           <activation />
         </task>
         <projects_view>
@@ -267,8 +268,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Gradle.Run Example" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Gradle.NetServer:HttpServer [bootRun]" />
         <item itemvalue="Gradle.NetServer [clean]" />
@@ -400,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571909518862</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="修复一些小问题">
+      <created>1572260804301</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572260804301</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -414,7 +422,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -427,7 +437,19 @@
     <MESSAGE value="修正 README 语法错误." />
     <MESSAGE value="添加新功能." />
     <MESSAGE value="减少线程池的延迟速度." />
-    <option name="LAST_COMMIT_MESSAGE" value="减少线程池的延迟速度." />
+    <MESSAGE value="修复一些小问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复一些小问题" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/HttpServer/src/main/java/top/fksoft/server/http/HttpServer.kt</url>
+          <line>65</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
