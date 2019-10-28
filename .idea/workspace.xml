@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f14e475-9a48-44da-b2e7-54af31721117" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/utils/FxmlActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/utils/fxml/Controller.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Simple/src/main/java/top/fksoft/simple/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -417,7 +413,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572260804301</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="config simple.">
+      <created>1572266102064</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572266102064</updated>
+    </task>
+    <task id="LOCAL-00017" summary="config simple.">
+      <created>1572266134138</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1572266134138</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -447,7 +457,8 @@
     <MESSAGE value="添加新功能." />
     <MESSAGE value="减少线程池的延迟速度." />
     <MESSAGE value="修复一些小问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复一些小问题" />
+    <MESSAGE value="config simple." />
+    <option name="LAST_COMMIT_MESSAGE" value="config simple." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
