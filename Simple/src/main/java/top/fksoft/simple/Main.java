@@ -7,6 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import javafx.util.Callback;
 import jdkUtils.ModConfig;
 import jdkUtils.logcat.Logger;
 import top.fksoft.simple.controller.UdpController;
@@ -31,6 +32,14 @@ public class Main extends Application {
         fxmlLoader.setLocation(getClass().getResource("/res/layout/Main.fxml"));
         fxmlLoader.setBuilderFactory(new JavaFXBuilderFactory());
         UdpController controller = new UdpController();
+        Callback<Class<?>, Object> controllerFactory = fxmlLoader.getControllerFactory();
+        fxmlLoader.setControllerFactory(new Callback<Class<?>, Object>() {
+            @Override
+            public Object call(Class<?> param) {
+                logger.debug(param.getName());
+                return null;
+            }
+        });
         fxmlLoader.setController(controller);
         Scene value = new Scene(fxmlLoader.load());
         value.setFill(Color.TRANSPARENT);

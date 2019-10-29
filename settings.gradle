@@ -1,4 +1,4 @@
-rootProject.name = 'NetServer'
+rootProject.name = 'JNetServer'
 
 include 'HttpServer'
 include 'Simple'
