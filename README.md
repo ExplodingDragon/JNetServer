@@ -4,7 +4,13 @@
 ![](https://img.shields.io/badge/LICENSE-MIT-green.svg)  ![](https://img.shields.io/badge/CODE-Kotlin-green.svg)  ![](https://img.shields.io/badge/BUILD-Gradle-green.svg)  ![](https://img.shields.io/badge/TYPE-LIBRARY-green.svg)  [![](https://jitpack.io/v/ExplodingFKL/JNetServer.svg)](https://jitpack.io/#ExplodingFKL/JNetServer)
 
 
-一个轻量级网络通信库集合，使用 Kotlin 开发，兼容 IPv6
+一个轻量级网络通信库集群，使用 Kotlin 开发，兼容 IPv6
+
+### 注意事项
+
+1. 此项目未进行大规模测试，请勿用于生产环境
+2. 此项目基于 JavaSE 8，在JavaSE 9可能存在问题！
+3. 咸鱼开发者，随时咕咕咕
 
 引用方案详见 [JitPack](https://jitpack.io/#ExplodingFKL/JNetServer)
 
@@ -48,6 +54,7 @@ cd JNetServer
 git clone https://github.com/ExplodingFKL/JNetServer
 cd JNetServer
 gradlew.bat bootRun
+
 ```
 
 ### MacOS / Linux
@@ -56,6 +63,7 @@ gradlew.bat bootRun
 git clone https://github.com/ExplodingFKL/JNetServer
 cd JNetServer
 ./gradlew bootRun
+
 ```
 
 
