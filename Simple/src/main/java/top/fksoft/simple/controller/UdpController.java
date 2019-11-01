@@ -18,6 +18,7 @@ import top.fksoft.simple.data.DataPacket;
 import top.fksoft.simple.data.DataReceiveBinder;
 import top.fksoft.simple.data.UserPacket;
 
+import java.io.IOException;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
@@ -80,7 +81,7 @@ public class UdpController {
 
     }
     @FXML
-    void sendUser(MouseEvent event) throws UnknownHostException {
+    void sendUser(MouseEvent event) throws IOException {
         UserPacket userPacket = new UserPacket();
         userPacket.user.name = "Test";
         userPacket.user.devicesName = InetAddress.getLocalHost().getHostName();

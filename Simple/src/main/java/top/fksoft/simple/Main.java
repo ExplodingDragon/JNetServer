@@ -32,18 +32,9 @@ public class Main extends Application {
         fxmlLoader.setLocation(getClass().getResource("/res/layout/Main.fxml"));
         fxmlLoader.setBuilderFactory(new JavaFXBuilderFactory());
         UdpController controller = new UdpController();
-        Callback<Class<?>, Object> controllerFactory = fxmlLoader.getControllerFactory();
-        fxmlLoader.setControllerFactory(new Callback<Class<?>, Object>() {
-            @Override
-            public Object call(Class<?> param) {
-                logger.debug(param.getName());
-                return null;
-            }
-        });
         fxmlLoader.setController(controller);
         Scene value = new Scene(fxmlLoader.load());
         value.setFill(Color.TRANSPARENT);
-
         stage.setScene(value);
         stage.setTitle("UDP 测试");
         stage.show();

@@ -1,7 +1,7 @@
 
 buildscript {
     ext.groups = 'top.fksoft'
-    ext.versions = 'v0.1-beta'
+    ext.versions = 'last'
     ext.versionCode = 1
     ext.kotlin_version = '1.3.50'
     ext.javaUtilVersion = 'v0.1-beta2'
