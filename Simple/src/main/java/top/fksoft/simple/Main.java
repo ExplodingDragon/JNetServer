@@ -38,6 +38,5 @@ public class Main extends Application {
         stage.setTitle("UDP 测试");
         stage.show();
         controller.init(stage);
-
     }
 }
