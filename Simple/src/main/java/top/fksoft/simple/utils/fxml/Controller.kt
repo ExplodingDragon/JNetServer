@@ -1,5 +1,5 @@
 package top.fksoft.simple.utils.fxml
 
-interface Controller {
+annotation class Controller {
 
 }

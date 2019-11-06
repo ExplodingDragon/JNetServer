@@ -3,6 +3,7 @@ package top.fksoft.simple;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.JavaFXBuilderFactory;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
@@ -28,11 +29,12 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
         stage.initStyle(StageStyle.TRANSPARENT);
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("/res/layout/Main.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/res/layout/udp.fxml"));
         fxmlLoader.setBuilderFactory(new JavaFXBuilderFactory());
         UdpController controller = new UdpController();
         fxmlLoader.setController(controller);
-        Scene value = new Scene(fxmlLoader.load());
+        Parent load = fxmlLoader.load();
+        Scene value = new Scene(load);
         value.setFill(Color.TRANSPARENT);
         stage.setScene(value);
         stage.setTitle("UDP 测试");
